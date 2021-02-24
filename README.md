@@ -34,11 +34,12 @@ Olağanüstü bir hava durumuyla (don, fırtına vs.) uyarı verilmesi için gel
 
 ### Uydu Görüntüsü Sayfası
 
-![](images/4.png) ![](images/5.png) ![](images/6.png)
+![](images/10.png) ![](images/4.png) 
+![](images/5.png) ![](images/6.png)
 
 ### Arazinin Durumu Sayfası
 
-
+![](images/9.png)
 
 ### Cihaz Bağlantısı Sayfası
 

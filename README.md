@@ -60,7 +60,7 @@ Olağanüstü bir hava durumuyla (don, fırtına vs.) uyarı verilmesi için gel
 
 ### Uydu Görüntüsü Sayfası
 
-![](images/4.png) ![](images/5.png) ![](images/6.png) 
+![](images/4.png)![](images/5.png)![](images/6.png) 
 
 [Agro Api](https://agromonitoring.com/) kullanarak tarım için önemli olan NDVI, EVI ve toprak sıcaklığı gibi parametreleri; mobil uygulamamıza entegre edip çiftçinin arazisi hakkındaki bu değerlere kolayca ulaşmasını sağladık. Ayrıca bu verilerin geçmiş verilerle de karşılaştırılması için belirli tarihler arasında grafikleştirmeler de bulunuyor. Sunduğumuz bu verilerin ışığında ileriye dönük yapılacak tarımsal faaliyetlerin daha verimli yapılmasına katkıda bulunmayı amaçlıyoruz.
 

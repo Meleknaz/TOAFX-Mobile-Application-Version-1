@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/weather_alert" android:title="Hava Durumu Uyarısı">
+</item>
+    <item android:id="@+id/satellite_image" android:title="Uydu Görüntüsü">
+    </item>
+    <item android:id="@+id/arazi_durumu" android:title="Arazinin Durumu">
+    </item>
+    <item android:id="@+id/cihaz_baglantısı" android:title="Cihaz Bağlantısı">
+    </item>
+</menu>

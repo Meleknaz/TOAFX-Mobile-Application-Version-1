@@ -77,10 +77,15 @@ Olağanüstü bir hava durumuyla (don, fırtına vs.) uyarı verilmesi için gel
 **Herhangi bir geliştirme için pull request oluşturabilir ya da herhangi bir sorun için issue açabilirsiniz.**
 
 
-Bizi sosyal medya hesaplarımızdan takip ederek çalışmalarımızdan haberdar olabilirsiniz
+**Bizi sosyal medya hesaplarımızdan takip ederek çalışmalarımızdan haberdar olabilirsiniz**
+
 ✨ [YouTube](https://www.youtube.com/channel/UCpGEhZnwdM3ZQ8zSgAKUhSw)
+
 ✨ [Linkedin](https://www.linkedin.com/company/toaf/)
+
 ✨ [Twitter](https://twitter.com/toaf_x)
+
 ✨ [instagram](https://www.instagram.com/toaf_x/)
+
 ✨ [Facebook](https://www.facebook.com/TOAF-102412425107313/?view_public_for=102412425107313)
 

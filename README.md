@@ -10,23 +10,39 @@ Aracımız üzerinde bulunan sensörler (pH, ec vs.) ve açık kaynak kodlu uydu
 
 **Uygulamamızdaki mevcut arayüzler**:
 
-* **Ana Sayfa**: Ana sayfa kullanıcımızın konum bilgisine göre hava durumu bilgilerini içeriyor.(nem, hissedilen sıcaklık, basınç, rüzgar değerleri)
-* **Hava Durumu Uyarısı Sayfası**: Olağanüstü bir hava durumuyla (don, fırtına vs.) uyarı verilmesi için geliştirilmek üzere tasarlandı
-* **Uydu Görüntüsü Sayfası**: Point sınıfı için CPP uygulama dosyası
-* **Arazinin Durumu Sayfası**: Square sınıfı için başlık dosyası
-* **Cihaz Bağlantısı Sayfası**: Square sınıfı için CPP uygulama dosyası
+* **Ana Sayfa**
+* **Hava Durumu Uyarısı Sayfası**
+* **Uydu Görüntüsü Sayfası**
+* **Arazinin Durumu Sayfası**
+* **Cihaz Bağlantısı Sayfası**
 
 
+### Ana Sayfa
 
-![](Images/Ekran görüntüsü 2020-12-11 205112.png)
+![](Images/2.png)
+
+ Ana sayfa kullanıcımızın konum bilgisine göre hava durumu bilgilerini içeriyor.(nem, hissedilen sıcaklık, basınç, rüzgar değerleri)
 
 ```java
 
 ```
+### Hava Durumu Uyarısı Sayfası
 
+![](Images/3.png)
 
+Olağanüstü bir hava durumuyla (don, fırtına vs.) uyarı verilmesi için geliştirilmek üzere tasarlandı
 
-**java**
+### Uydu Görüntüsü Sayfası
+
+![](Images/4.png) ![](Images/5.png) ![](Images/6.png)
+
+### Arazinin Durumu Sayfası
+
+![](Images/7.png)
+
+### Cihaz Bağlantısı Sayfası
+
+![](Images/8.png)
 
 
 

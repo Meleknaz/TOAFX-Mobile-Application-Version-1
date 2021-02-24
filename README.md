@@ -5,7 +5,7 @@
 ## TOAFX Mobil Uygulaması
 
 
-![](Images/1.jpeg)
+![](images/1.jpeg)
 Aracımız üzerinde bulunan sensörler (pH, ec vs.) ve açık kaynak kodlu uydulardan (NDVI, EVI) aldığımız verileri, kendi geliştirdiğimiz mobil uygulamaya kullanıcı dostu ara yüzümüzle çiftçiye aktarıp, yeri geldiğinde çiftçiyi uyarıp en verimli tarımı yapmasını hedefledik. Olağanüstü bir hava durumuyla (don, fırtına vs.) karşılaşılması durumunda çiftçiye alınması gereken önlemlerle ilgili geri bildirimde bulunmayı hedefliyoruz. Aynı zamanda aracımızı manuel olarak kontrol etmemizin gerektiği durumlarda mobil uygulamamız aracılığıyla aracımıza bağlanarak aracımızı kontrol edebiliyoruz. Tarım için önemli olan NDVI, EVI ve toprak sıcaklığı gibi parametreleri; uydu API’ları aracılığıyla mobil uygulamamıza entegre edip çiftçinin arazisi hakkındaki bu değerlere kolayca ulaşmasını sağladık. Ayrıca bu verilerin geçmiş verilerle de karşılaştırılması için belirli tarihler arasında grafikleştirmeler sunabiliyoruz. Sunduğumuz bu verilerin ışığında ileriye dönük yapılacak tarımsal faaliyetlerin daha verimli yapılmasına katkıda bulunmayı amaçlıyoruz.
 
 **Uygulamamızdaki mevcut arayüzler**:
@@ -19,30 +19,30 @@ Aracımız üzerinde bulunan sensörler (pH, ec vs.) ve açık kaynak kodlu uydu
 
 ### Ana Sayfa
 
-![](Images/2.png)
+![](images/2.png) 
 
- Ana sayfa kullanıcımızın konum bilgisine göre hava durumu bilgilerini içeriyor.(nem, hissedilen sıcaklık, basınç, rüzgar değerleri)
+Ana sayfa kullanıcımızın konum bilgisine göre hava durumu bilgilerini içeriyor.(nem, hissedilen sıcaklık, basınç, rüzgar değerleri)
 
 ```java
 
 ```
 ### Hava Durumu Uyarısı Sayfası
 
-![](Images/3.png)
+![](images/3.png)
 
 Olağanüstü bir hava durumuyla (don, fırtına vs.) uyarı verilmesi için geliştirilmek üzere tasarlandı
 
 ### Uydu Görüntüsü Sayfası
 
-![](Images/4.png) ![](Images/5.png) ![](Images/6.png)
+![](images/4.png) ![](images/5.png) ![](images/6.png)
 
 ### Arazinin Durumu Sayfası
 
-![](Images/7.png)
+
 
 ### Cihaz Bağlantısı Sayfası
 
-![](Images/8.png)
+![](images/7.png) ![](images/8.png)
 
 
 

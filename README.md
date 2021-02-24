@@ -16,26 +16,53 @@ Aracımız üzerinde bulunan sensörler (pH, ec vs.) ve açık kaynak kodlu uydu
 * **Arazinin Durumu Sayfası**
 * **Cihaz Bağlantısı Sayfası**
 
+```java
+Mobil uygulamamız Android Studio geliştirme ortamında Java dili ile yazılmıştır.
+```
+
 
 ### Ana Sayfa
 
 ![](images/2.png) 
 
-Ana sayfa kullanıcımızın konum bilgisine göre hava durumu bilgilerini içeriyor.(nem, hissedilen sıcaklık, basınç, rüzgar değerleri)
+Ana sayfa kullanıcımızın konum bilgisi iznini aaldıktan sonra bulnduğu konuma göre hava durumu bilgilerini içeren sayfamızdır.Hava durumu bilgisi içeriği; nem bilgisi, hissedilen sıcaklık bilgisi, basınç bilgisi, rüzgar bilgisi görsellik katmak amacıyla iconları ile birlikte verilmiştir. Ayrıca random değerlerden oluşan geliştirilmek amcıyla eklediğim grafikler mevcuttur.
 
 ```java
+public class AraziDurumu extends AppCompatActivity {
 
+    LineGraphSeries<DataPoint> series;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_arazi_durumu);
+
+       double x,y;
+        x=-0.5;
+        GraphView graph = (GraphView) findViewById(R.id.graph);
+        series = new LineGraphSeries<DataPoint>();
+       for (int i = 0 ; i < 500 ; i++){
+            x = x +0.1;
+            y = Math.sin(x) ;
+            series.appendData(new DataPoint(x,y), true, 500);
+        }
+
+        graph.addSeries(series);
+    }
 ```
+
+
 ### Hava Durumu Uyarısı Sayfası
 
 ![](images/3.png)
 
-Olağanüstü bir hava durumuyla (don, fırtına vs.) uyarı verilmesi için geliştirilmek üzere tasarlandı
+Olağanüstü bir hava durumuyla (don, fırtına vs.) uyarı verilmesi için geliştirilmek üzere oluşturduğum arayüzümüz.
 
 ### Uydu Görüntüsü Sayfası
 
-![](images/10.png) ![](images/4.png) 
-![](images/5.png) ![](images/6.png)
+![](images/4.png) ![](images/5.png) ![](images/6.png) 
+
+[Agro Api](https://agromonitoring.com/) kullanarak tarım için önemli olan NDVI, EVI ve toprak sıcaklığı gibi parametreleri; mobil uygulamamıza entegre edip çiftçinin arazisi hakkındaki bu değerlere kolayca ulaşmasını sağladık. Ayrıca bu verilerin geçmiş verilerle de karşılaştırılması için belirli tarihler arasında grafikleştirmeler de bulunuyor. Sunduğumuz bu verilerin ışığında ileriye dönük yapılacak tarımsal faaliyetlerin daha verimli yapılmasına katkıda bulunmayı amaçlıyoruz.
 
 ### Arazinin Durumu Sayfası
 

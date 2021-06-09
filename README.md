@@ -2,7 +2,6 @@
 
 [TOAF](https://www.toafx.org/) ekibi farklı üniversitelerden ve farklı disiplinlerden takım arkadaşlarının, ülkedeki tarım verimliliği ve otomasyon ihracatını artırma hedefiyle kurulmuş bir arge takımıdır. TEKNOFEST’te 1468 başvuru arasında finale kalarak geliştirilmesini yaptığımız araçla ilk 10 takım arasına girdik. Uzun süren çalışmalarımız sonucunda elde ettiğimiz takım çalışması deneyimiyle çalışmalarımıza devam ediyoruz.
 
-**Bu github repomuzda sizlere NPK sensörü ile yaptığımız çalışmalarımızı sunmaktayız.**
 
 ## TOAFX Mobil Uygulaması
 
